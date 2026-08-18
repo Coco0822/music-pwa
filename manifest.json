@@ -1,0 +1,20 @@
+{
+  "name": "跟著音樂動肌動",
+  "short_name": "動肌動",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "icons": [
+    {
+      "src": "https://zh.pngtree.com/free-png-vectors/%E9%81%8B%E5%8B%95",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://zh.pngtree.com/free-png-vectors/%E9%81%8B%E5%8B%95",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
