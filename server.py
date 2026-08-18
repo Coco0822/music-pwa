@@ -13,7 +13,7 @@ log.setLevel(logging.ERROR)
 
 # ====== 1. Google Drive 設定 ======
 scope = ["https://www.googleapis.com/auth/drive"]
-KEY_FILE = "concrete-fusion-473207-h0-b92df59b8fff.json"
+KEY_FILE = "bpm1231-12d6db371901.json"
 FOLDER_ID = "1OkDdBBl2gWOP-aKr6giPPAWzP_9zVG6s"
 APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz3LY60s9sbk1NAxVRHvpy0FhZglydmxU9QTs-6C_IX0f2C9rgDCTgkxev5WhYAGR0N/exec"
 
@@ -152,7 +152,6 @@ def calculate_bpm(buffer):
 
 @app.route("/")
 def index():
-    # 若你的 HTML 檔案名稱是 index_2.html，請確認此處檔名一致
     return send_from_directory('.', 'index.html')
 
 @app.route("/manifest.json")
