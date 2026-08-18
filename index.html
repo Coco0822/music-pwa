@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="動肌動">
-
+    
     <style>
         :root { 
             --spotify-green: #1DB954; 
@@ -252,6 +252,7 @@
 
 <script>
     window.onload = function() {
+    // 新增這段 PWA 註冊程式碼
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
                 .then(reg => console.log('PWA 已成功啟動'))
